@@ -29,7 +29,7 @@ body
 	flex: 0 0 auto;
 	width: 141px;
 	position: relative;
-	height: 3rem;
+	height: 2.9rem;
 	
 }
 
@@ -40,6 +40,8 @@ body
 	font-size: 1.5rem;
 	z-index: 10;
 	position: absolute;
+	padding: 0 12px;
+	height: 2.9rem;
 }
 
 .btn02
@@ -49,6 +51,8 @@ body
 	z-index: 15;
 	position: absolute;
 	left: 60px;
+	padding: 0 12px;
+	height: 2.9rem;
 }
 
 .btn03
@@ -59,6 +63,8 @@ body
 	z-index: 20;
 	position: absolute;
 	left: 70px;
+	padding: 0 12px;
+	height: 2.9rem;
 }
 
 .toploco
@@ -99,7 +105,14 @@ body
     margin: 6px 12px;
     position: relative;
     right: 12px;
+	border-radius: 0;
 }
+
+#btnfocus:focus
+{
+    color: grey;
+    outline: none;  
+} 
 
 .menulist
 {
